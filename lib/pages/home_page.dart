@@ -1,6 +1,8 @@
 import 'dart:ffi';
+import 'dart:ui';
 
 import "package:flutter/material.dart";
+import 'package:flutter/services.dart';
 
 class HomePage extends StatelessWidget {
   final int days = 30;
@@ -10,7 +12,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Catalog App"),
+        title: Text("Dripping in Dazzle"),
       ),
       body: Center(
         child: Container(
