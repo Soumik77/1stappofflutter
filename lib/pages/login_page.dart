@@ -1,3 +1,4 @@
+import 'package:first_app/utils/routes.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -5,7 +6,8 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
         color: Colors.white,
-        child: Column(
+        child: SingleChildScrollView(
+            child: Column(
           children: [
             Image.asset(
               "assets/images/undraw_Mobile_login_re_9ntv.png",
@@ -15,7 +17,7 @@ class LoginPage extends StatelessWidget {
             Text(
               "Welcome to Dripping in Dazzle",
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 24,
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -35,16 +37,19 @@ class LoginPage extends StatelessWidget {
                         hintText: "Enter password", labelText: "Password"),
                   ),
                   SizedBox(
-                    height: 20.0,
+                    height: 40.0,
                   ),
                   ElevatedButton(
                     child: Text("Login"),
-                    onPressed: () {},
+                    style: TextButton.styleFrom(minimumSize: Size(150, 40)),
+                    onPressed: () {
+                      Navigator.pushNamed(context, MyRoutes.homeRoute);
+                    },
                   )
                 ],
               ),
             ),
           ],
-        ));
+        )));
   }
 }
