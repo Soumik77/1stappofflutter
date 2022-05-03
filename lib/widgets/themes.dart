@@ -11,7 +11,7 @@ class MyTheme {
           iconTheme: IconThemeData(color: Colors.black),
           titleTextStyle: TextStyle(
             color: Colors.black,
-            fontWeight: FontWeight.bold,
+            fontWeight: FontWeight.normal,
             fontSize: 21,
           ),
         ),
