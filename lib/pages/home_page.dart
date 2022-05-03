@@ -11,7 +11,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Dripping in Dazzle"),
+        title: Text(
+          "Dripping in Dazzle",
+        ),
       ),
       body: Center(
         child: Container(
