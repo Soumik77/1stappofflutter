@@ -1,0 +1,29 @@
+{
+    "products": [{
+            "id": 1,
+            "name": "iPhone 12 Pro",
+            "desc": "Apple iPhone 12th generation",
+            "price": 146999,
+            "color": "#33505a",
+            "image": "https://www.91-img.com/gallery_images_uploads/e/d/ed5c062684de8f5ff3e0a83dc3faaf808698865b.JPG?tr=h-550,w-0,c-at_max"
+        },
+        {
+            "id": 2,
+            "name": "Google Pixel 5a",
+            "desc": "Google Pixel phone 5th generation",
+            "price": 45000,
+            "color": "00ac51",
+            "image": "https://m.media-amazon.com/images/I/51E7J1JKKXL._SX679_.jpg"
+
+
+        },
+        {
+            "id": 3,
+            "name": "Galaxy S21",
+            "desc": "Samsung Galaxy S21 2021 edition",
+            "price": 139000,
+            "color": "#7c95eb",
+            "image": "https://www.zdnet.com/a/img/resize/cba3fe87ab351fa4bb9f8d899f7cf4df352c14df/2022/01/13/2d81372e-36cf-43ce-a2fb-52ab2a1b980c/samsung-galaxy-s21-fe-7.jpg?auto=webp&width=1092"
+        }
+    ]
+}
